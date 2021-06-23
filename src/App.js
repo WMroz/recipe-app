@@ -53,7 +53,7 @@ const App = () => {
     <div className="App">
       <div className="head">
               <div className="text-label">
-        <h1>What dish do you facy today?</h1>
+        <h1>What dish do you fancy today?</h1>
         </div>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" 
