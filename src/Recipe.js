@@ -8,7 +8,11 @@ import style from './recipe.module.css';
 const Recipe = ({key, title, calories, image, ingredients}) => {
     return (
         <div>
+<<<<<<< HEAD
             <img src={image} alt=" missing food img here"/>
+=======
+            <img src={image} alt=" missing food pic here"/>
+>>>>>>> f324677213be45cc22226a5dec3c9bffe6482207
             <div className={style.recipe}>
             <h1>{title}</h1>
             <ol>
